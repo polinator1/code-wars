@@ -16,3 +16,7 @@ function reverseWords(str){
     }
     return res.join(" ")
 }
+
+function reverseWords(str){
+    return str.split(" ").reverse().join(" ");
+}
